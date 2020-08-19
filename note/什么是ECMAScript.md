@@ -1,0 +1,9 @@
+JavaScript是一个脚本语言.
+
+该语言的发明公司是Netscape.
+
+该公司希望JavaScript语言成为一种标准化的语言,于是提交JavaScript给标准化组织ECMA,希望该组织给这门语言标准化.
+
+为了体现该标准是由ECMA制订的,所以前面加上了ECMAScript.
+
+ECMAScript是规格标准,JavaScript是具体的技术实现
