@@ -6,3 +6,9 @@ function caculate() {
 	let b = parseInt(document.getElementById('b').value)
 	document.getElementById('res').innerText = plus(a,b)
 }
+
+console.log(a)
+var a = 333
+
+console.log(b)
+let b = 444
