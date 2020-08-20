@@ -44,21 +44,27 @@
 
 
 
-function hoistFunction() {
+// function hoistFunction() {
 
-    foo(); // 2
+//     foo(); // 2
 
-    var foo = function() {
-        console.log(1);
-    };
+//     var foo = function() {
+//         console.log(1);
+//     };
 
-    foo(); // 1
+//     foo(); // 1
 
-    function foo() {
-        console.log(2);
-    }
+//     function foo() {
+//         console.log(2);
+//     }
 
-    foo(); // 1
-}
+//     foo(); // 1
+// }
 
-hoistFunction();
+// hoistFunction();
+
+xxx = 1
+console.log(window.xxx);
+
+let abc = 33
+console.log(window.abc);
