@@ -1,3 +1,4 @@
+// 变量提升
 // var a = 1
 // {
 //     a = 3
@@ -20,7 +21,7 @@
 
 // add()
 
-
+// 函数提升
 // function f(){
 //     console.log('I am outside');
 // }
@@ -63,6 +64,7 @@
 
 // hoistFunction();
 
+// 顶层对象
 xxx = 1
 console.log(window.xxx);
 
