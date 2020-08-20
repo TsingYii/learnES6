@@ -10,6 +10,10 @@
 // const {log} = console
 // log('你好啊!')
 
-let {a:c,b} = {a:"李四",b:18}
-console.log(c);
-console.log(b);
+// let {a:c,b} = {a:"李四",b:18}
+// console.log(c);
+// console.log(b);
+
+// console.log(JSON.stringify('\u{D834}'))
+
+
