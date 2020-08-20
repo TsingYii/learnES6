@@ -9,13 +9,56 @@
 // }
 // console.log(index);
 
-let a = 1
-function add(){
-	console.log(a)
-	if(false){
-		let a = 2
-		console.log(a)
-	}
+// let a = 1
+// function add(){
+// 	console.log(a)
+// 	if(false){
+// 		let a = 2
+// 		console.log(a)
+// 	}
+// }
+
+// add()
+
+
+// function f(){
+//     console.log('I am outside');
+// }
+
+// (function (){
+//     if(false){
+//         function f(){
+//             console.log('I am inside');
+//         } 
+//     }
+//     f()
+// }())
+
+// function foo(){
+//     baa()
+//     function baa(){
+//         console.log('baa');
+//     }
+// }
+// foo()
+
+
+
+function hoistFunction() {
+
+    foo(); // 2
+
+    var foo = function() {
+        console.log(1);
+    };
+
+    foo(); // 1
+
+    function foo() {
+        console.log(2);
+    }
+
+    foo(); // 1
 }
 
-add()
+hoistFunction();
